@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Awesome Quote App",
+    "slug": "awesome-quote-app",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-famous.png",
+    "splash": {
+      "image": "./assets/quote-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "co.awesome.wise_saying"
+    }
+  }
+}
